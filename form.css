@@ -1,0 +1,76 @@
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    /* resize: vertical  */
+  }
+  input[type=email]{
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+  }
+  
+ 
+  input[type=submit] {
+    background-color: #17f058;
+  
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  input[value=Cancel]{
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(255, 1, 1);
+    margin-left: 10px;
+  }
+  input[value=Cancel]:hover{
+    background-color: rgb(236, 20, 20);
+    transform: scale(1.08);
+    transition: 0.2s;
+  }
+  .selectinput{
+    margin-top: 20px;
+  }
+
+
+  input[type=submit]:hover {
+    background-color: #23eb2d;
+  
+    transform: scale(1.08);
+    transition: 0.2s;
+  }
+  body{
+    background-image: url(formimage.jpg);
+  }
+  
+
+  .form {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    background-color: rgba(28, 26, 26, 0.5);
+    padding: 20px;
+    width: 30%;
+    margin-left: 35%;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 18px;
+    padding-top: 0px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3)
+
+  }
+ 
+  
